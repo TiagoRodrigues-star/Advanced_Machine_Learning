@@ -55,3 +55,24 @@ The data used was the well known [Iris Dataset](https://scikit-learn.org/stable/
   - Find a data transformation that leads to a linear separable problem
   - Visualize data in 3D using the extra feature from the data transformation
   - Use different kernels and evaluate which one leads to better performance on the original dataset
+  
+  
+## Third Assignment - Mixture Models
+This assignment focused on understanding the effect of using several simple models to obtain a better overall performance (Ensemble).
+
+### Models used:
+- Decision Tree Classifiers
+- K-Nearest Neighbours
+- Naïve Bayes
+- Logistic Regression
+
+
+### Problems:
+The problem focused on the implementation of a Weighted Average Ensemble System in Python, which combines the output of several experts with a linear combination, whose weights are the accuracy scores of the experts on the dataset. This output is then rounded to the nearest integer.
+
+### Data:
+The data used was the well known [Breast Cancer dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html).
+
+### Assignment Objectives:
+- Implement the Weighted Average Ensemble System and test distinct combinations of models for the ensemble.
+
