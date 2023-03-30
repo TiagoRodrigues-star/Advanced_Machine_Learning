@@ -74,5 +74,52 @@ The problem focused on the implementation of a Weighted Average Ensemble System 
 The data used was the well known [Breast Cancer dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html).
 
 ### Assignment Objectives:
-- Implement the Weighted Average Ensemble System and test distinct combinations of models for the ensemble.
+- Implement the Weighted Average Ensemble System and test distinct combinations of models for the ensemble
 
+
+
+## Fourth Assignment - Hidden Markov Models
+This assignment focused on understanding the impact of the amount of data on the quality of the model when some of the information is not supplied (emission and transmission matrixes, number of states, etc).
+
+### Models used:
+- Hidden Markov Models
+
+### Problems:
+The problem focused on a dishonest casino, similar to the one seen [here](https://hmmlearn.readthedocs.io/en/latest/auto_examples/plot_casino.html#sphx-glr-auto-examples-plot-casino-py). From here, a truth model was built (with all parameters known) and later other models that estimated some of the parameters.
+
+### Data:
+The data used changed in each question. For the first and second, a small sequence of the rolls and dice states was provided. For the third, the dice.txt and rolls.txt was used. For the last, data was generated using the model in the first exercise.
+
+### Assignment Objectives:
+- First exercise:
+  - Train a HMM with all parameters known
+- Second exercise:
+  - Train a HMM assuming the transition matrix is unknown
+- Third exercise:
+  - Train a HMM assuming the transition and emission matrixes are unknown
+  - Train a HMM assuming all parameters are unknown
+- Fourth exercise:
+  - Sample the model in the first exercise
+  - Redo the third exercise with this data
+  
+  
+## Fifth Assignment - Bayesian Networks
+This assignment focused on modelling a Bayesian Network and comparing Naïve Bayes with Random Forests.
+
+### Models used:
+- Bayesian Networks
+- Naïve Bayes
+- Random Forest Classifiers
+
+### Problems:
+The problem was adapted from [IDA/AIICS Course on Artificial Intelligence and Lisp](https://www.ida.liu.se/ext/caisor/TDDC65/dectree-exercise/page-100930.html), which focused on the development of a Bayesian Network and the computation of conditional probabilities. The second part focused on the comparison of the performance of Naïve Bayes and Random Forests.
+
+### Data:
+For the Bayesian Network, the data utilized was the one given in the mentioned problem. For the second part, the well known [Breast Cancer dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html) was used.
+
+### Assignment Objectives:
+- First exercise:
+  - Create a Bayesian Network
+  - Calculate conditional probabilities
+- Second exercise:
+  - Train a Naïve Bayes and Random Forest Classifier, optimize their parameters and compare results
